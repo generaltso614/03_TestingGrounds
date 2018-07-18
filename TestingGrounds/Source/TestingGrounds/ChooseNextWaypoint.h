@@ -11,7 +11,8 @@
  * 
  */
 
-class APatrollingGuard;
+//class APatrollingGuard;
+class UPatrolRoute;
 
 UCLASS()
 class TESTINGGROUNDS_API UChooseNextWaypoint : public UBTTaskNode
@@ -27,7 +28,7 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Blackboard")
 	FBlackboardKeySelector WaypointKey;
 
-	APatrollingGuard* PatrollingGuardRef = nullptr;
+	//APatrollingGuard* PatrollingGuardRef = nullptr;
 
 	int32 Index; 
 
