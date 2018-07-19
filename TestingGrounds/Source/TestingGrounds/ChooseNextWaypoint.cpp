@@ -4,7 +4,6 @@
 #include "BehaviorTree/BlackboardComponent.h"
 #include "Engine/World.h"
 #include "AIController.h"
-#include "TestingGrounds/TP_ThirdPerson/PatrollingGuard.h"
 #include "PatrolRoute.h"
 
 EBTNodeResult::Type UChooseNextWaypoint::ExecuteTask(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory)
